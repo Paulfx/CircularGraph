@@ -1,4 +1,4 @@
-FLAGS = -std=c++14 -Wall -g
+FLAGS = -std=c++11 -Wall -g
 
 EXEC=exec.out
 SRC=main.cpp Graph.cpp
