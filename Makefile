@@ -15,7 +15,7 @@ obj/%.o: src/%.cpp
 	g++ $(FLAGS) -c $< -o $@
 
 clean:
-	rm -f obj/*.o
+	rm -rf obj
 
 superclean: clean
 	rm -f *.out 
